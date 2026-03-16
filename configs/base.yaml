@@ -1,0 +1,25 @@
+project_name: PDF Interpreter Enterprise Intelligence
+
+data:
+  source_path: data/external/pdf_document_sample.csv
+  target_column: human_review_required
+  test_size: 0.25
+
+model:
+  numeric_features:
+    - page_count
+    - extracted_characters
+    - image_count
+    - table_count
+    - ocr_confidence
+  categorical_features:
+    - document_type
+    - source_channel
+    - language
+    - contains_signature
+  random_state: 42
+
+output:
+  model_path: models/pdf_interpreter_model.joblib
+  metrics_path: reports/pdf_interpreter_metrics.json
+  predictions_path: reports/pdf_interpreter_predictions.csv

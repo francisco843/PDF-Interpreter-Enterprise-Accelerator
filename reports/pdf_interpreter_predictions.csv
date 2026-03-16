@@ -1,0 +1,6 @@
+page_count,extracted_characters,image_count,table_count,ocr_confidence,document_type,source_channel,language,contains_signature,human_review_required,predicted_label,predicted_probability
+16,20800,2,0,0.92,contract,portal,es,yes,0,0,0.2308
+22,28400,1,0,0.95,contract,email,en,yes,0,0,0.0749
+6,5900,2,1,0.74,medical_form,email,pt,yes,1,1,0.8125
+11,10900,6,1,0.58,medical_form,scan,fr,yes,1,1,0.9949
+2,2400,1,1,0.88,purchase_order,portal,de,no,0,0,0.163

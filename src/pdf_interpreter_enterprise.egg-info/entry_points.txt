@@ -1,0 +1,2 @@
+[console_scripts]
+pdf-interpreter = enterprise_ds.cli:main

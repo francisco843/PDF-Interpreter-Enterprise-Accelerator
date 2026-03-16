@@ -1,0 +1,2 @@
+[console_scripts]
+enterprise-ds = enterprise_ds.cli:main

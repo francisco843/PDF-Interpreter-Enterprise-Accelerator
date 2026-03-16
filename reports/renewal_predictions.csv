@@ -1,0 +1,6 @@
+annual_recurring_revenue,active_users,feature_adoption_score,support_tickets_last_90_days,nps,industry,region,executive_sponsor,renewal,predicted_label,predicted_probability
+87000,140,46,14,-2,Healthcare,Asia Pacific,no,0,0,0.0174
+83000,135,44,16,-5,Logistics,Latin America,no,0,0,0.0111
+151000,290,79,5,38,Healthcare,North America,yes,1,1,0.8408
+176000,360,84,4,49,FinTech,North America,yes,1,1,0.9572
+118000,190,54,10,12,Logistics,Europe,no,0,0,0.1537

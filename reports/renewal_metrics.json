@@ -1,0 +1,21 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "feature_columns": [
+    "annual_recurring_revenue",
+    "active_users",
+    "feature_adoption_score",
+    "support_tickets_last_90_days",
+    "nps",
+    "industry",
+    "region",
+    "executive_sponsor"
+  ],
+  "model_path": "models/renewal_model.joblib",
+  "metrics_path": "reports/renewal_metrics.json",
+  "predictions_path": "reports/renewal_predictions.csv",
+  "records_scored": 5,
+  "roc_auc": 1.0
+}

@@ -1,0 +1,22 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "feature_columns": [
+    "page_count",
+    "extracted_characters",
+    "image_count",
+    "table_count",
+    "ocr_confidence",
+    "document_type",
+    "source_channel",
+    "language",
+    "contains_signature"
+  ],
+  "model_path": "models/pdf_interpreter_model.joblib",
+  "metrics_path": "reports/pdf_interpreter_metrics.json",
+  "predictions_path": "reports/pdf_interpreter_predictions.csv",
+  "records_scored": 5,
+  "roc_auc": 1.0
+}

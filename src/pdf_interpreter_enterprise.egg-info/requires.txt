@@ -1,0 +1,10 @@
+joblib<2.0,>=1.4
+pandas<3.0,>=2.2
+pyyaml<7.0,>=6.0
+scikit-learn<2.0,>=1.5
+typer<1.0,>=0.12
+
+[dev]
+mypy<2.0,>=1.11
+pytest<9.0,>=8.3
+ruff<1.0,>=0.6.9
