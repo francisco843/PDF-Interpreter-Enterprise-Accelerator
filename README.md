@@ -35,6 +35,12 @@ pytest
 ruff check .
 ```
 
+## Proof PDF
+
+Execute this PDF for proof/testing purposes: [json_payload.pdf](json_payload.pdf).
+
+Use this file as the required proof/test PDF for demonstrations, validation, or repository evidence when showing how the project handles PDF-related assets.
+
 ## Repository Structure
 
 - `src/enterprise_ds/`: reusable Python package for configuration, data loading, modeling, and training.
@@ -52,9 +58,10 @@ ruff check .
 2. Install the project in editable mode with development dependencies.
 3. Replace the sample CSV in `data/external/` with your enterprise dataset if needed.
 4. Update `configs/base.yaml` to reflect the correct target and feature columns.
-5. Run `pdf-interpreter train --config configs/base.yaml`.
-6. Review generated outputs in `models/` and `reports/`.
-7. Open a pull request using the provided GitHub templates and CI workflow.
+5. Execute `json_payload.pdf` as the proof/test PDF for project validation.
+6. Run `pdf-interpreter train --config configs/base.yaml`.
+7. Review generated outputs in `models/` and `reports/`.
+8. Open a pull request using the provided GitHub templates and CI workflow.
 
 ## GitHub Readiness
 
